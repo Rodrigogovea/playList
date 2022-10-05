@@ -37,8 +37,28 @@ public class PlayList
         myPlayList.dequeue();
         myPlayList.dequeue();
         myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
+        myPlayList.dequeue();
         
-        System.out.println("\nPendientes en la lista de reproducción: ");
+        System.out.println("\n\nPendientes en la lista de reproducción: ");
         myPlayList.showItems();
     }
 }
