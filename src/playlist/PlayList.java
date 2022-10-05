@@ -12,6 +12,26 @@ public class PlayList
         myPlayList.enqueue("Toto - Africa");
         myPlayList.enqueue("The outfield - Your love");
         
+        myPlayList.enqueue("Metallica - Nothing else matter");
+        myPlayList.enqueue("Metallica - One");
+        myPlayList.enqueue("Queen - We will rock you");
+        myPlayList.enqueue("Toto - Africa");
+        myPlayList.enqueue("The outfield - Your love");
+        
+        myPlayList.enqueue("Metallica - Nothing else matter");
+        myPlayList.enqueue("Metallica - One");
+        myPlayList.enqueue("Queen - We will rock you");
+        myPlayList.enqueue("Toto - Africa");
+        myPlayList.enqueue("The outfield - Your love");
+        
+        myPlayList.enqueue("Metallica - Nothing else matter");
+        myPlayList.enqueue("Metallica - One");
+        myPlayList.enqueue("Queen - We will rock you");
+        myPlayList.enqueue("Toto - Africa");
+        myPlayList.enqueue("The outfield - Your love");
+        
+        myPlayList.enqueue("The outfield - Your love 2");
+        
         myPlayList.showItems();
         
         myPlayList.dequeue();

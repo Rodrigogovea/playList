@@ -74,8 +74,7 @@ public class queue
     {
         for(int i=front; i<rear; i++)
         {
-            System.out.println(this.queueArray[i]);
-
+            System.out.println(i+1 + " .- " + this.queueArray[i]);
         }
     }
     public int getCapacity()
