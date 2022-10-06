@@ -37,6 +37,7 @@ public class queue
             front++;
             System.out.println("Reproduciendo: " + aux + " ...............");
             size--;
+            //reorganize();
         }
         else
             System.out.println("No hay elementos en la playList...");
@@ -82,5 +83,9 @@ public class queue
     public int getCapacity()
     {
         return this.capacity;
+    }
+    public void reorganize()
+    {
+        //for (int i = )
     }
 }
