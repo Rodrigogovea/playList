@@ -45,7 +45,10 @@ public class queue
     
     public String getFront()
     {
-        return this.queueArray[front];
+        if(!isEmpty())
+            return this.queueArray[front];
+        else
+            return "";
     }
     public String getRear()
     {
