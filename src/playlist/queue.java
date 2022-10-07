@@ -37,7 +37,7 @@ public class queue
             front++;
             System.out.println("Reproduciendo: " + aux + " ...............");
             size--;
-            //reorganize();
+            reorganize();
         }
         else
             System.out.println("No hay elementos en la playList...");
@@ -76,7 +76,7 @@ public class queue
     
     public void showItems()
     {
-        System.out.println("\n - My playlist -");
+        System.out.println("\n - My playlist - \n");
         for(int i=front; i<rear; i++)
         {
             System.out.println(i+1 + " .- " + this.queueArray[i]);
@@ -89,6 +89,13 @@ public class queue
     }
     public void reorganize()
     {
-        //for (int i = )
+        int i;
+        for (i = front; i<rear; i++)
+        {
+            queueArray[i-1] = queueArray[i];
+        }
+        front = 0;
+        rear = i-1;
+        queueArray[i-1] = "";
     }
 }
