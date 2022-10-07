@@ -25,7 +25,7 @@ public class queue
         }
         else
         {
-            System.out.println("La  cola ya está llena...");
+            System.out.println("La  playList ya está llena...");
         }
     }
     public void dequeue()
@@ -37,14 +37,18 @@ public class queue
             front++;
             System.out.println("Reproduciendo: " + aux + " ...............");
             size--;
+            //reorganize();
         }
         else
-            System.out.println("No hay elementos en la fila...");
+            System.out.println("No hay elementos en la playList...");
     }
     
     public String getFront()
     {
-        return this.queueArray[front];
+        if(!isEmpty())
+            return this.queueArray[front];
+        else
+            return "";
     }
     public String getRear()
     {
@@ -72,13 +76,19 @@ public class queue
     
     public void showItems()
     {
+        System.out.println("\n - My playlist -");
         for(int i=front; i<rear; i++)
         {
             System.out.println(i+1 + " .- " + this.queueArray[i]);
         }
+        System.out.println("_________________________________________________");
     }
     public int getCapacity()
     {
         return this.capacity;
+    }
+    public void reorganize()
+    {
+        //for (int i = )
     }
 }
